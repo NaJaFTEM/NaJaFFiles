@@ -45,6 +45,11 @@ NaJaFTEAM =  "مآآعٍآشُ آلُِي يزعٍلُِڪڪ 𖠙 😏♥️"
 Dev_Ali(msg.chat_id_, msg.id_, 1, NaJaFTEAM, 1, 'md') 
 return false
 end
+if text == 'شلخبار' or text == 'كيفك' then
+NaJaFTEAM = "تمام وانته"
+Dev_Ali(msg.chat_id_, msg.id_, 1, NaJaFTEAM, 1, 'md') 
+return false
+end
 if text == '🌚💔' or text == '💔🌚' or text == '🚶‍♂💔' or text == '💔' or text == '😔💔' or text == '🚶‍♀💔' or text == '😭' then 
 NaJaFTEAM =  "شبّيي اﻟ̣̣פﻟ̣̣و 𖠙 😿💔"
 Dev_Ali(msg.chat_id_, msg.id_, 1, NaJaFTEAM, 1, 'md') 
